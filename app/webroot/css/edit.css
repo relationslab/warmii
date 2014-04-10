@@ -1,0 +1,30 @@
+.trimming {
+ width: 200px;
+ height: 200px;
+ overflow: hidden;
+ }
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.grid ul{
+	width: 500px;
+	margin: 10px;
+	float: center;
+	list-style: none;
+	text-align: left;
+}
+.list li{
+	float: center;
+	list-style: none;
+	line-height: 140%;
+
+}
+#message{
+ text-align: left;
+ padding:10px;
+ width: 380px;
+ height: 180px;
+
+}

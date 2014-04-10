@@ -1,0 +1,93 @@
+@charset "UTF-8";
+ 
+/* CSSリセット */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,
+strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
+caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,
+figure,footer,header,hgroup,menu,nav,section,summary,time,mark,
+audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;
+vertical-align:baseline;background:transparent;font-weight:normal;}
+body{line-height:1}article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block}
+ul{list-style:none}blockquote,q{quotes:none}blockquote:before,
+blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;
+font-size:100%;vertical-align:baseline;background:transparent}
+del{text-decoration:line-through}abbr[title],dfn[title]
+{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;
+margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+
+/* 一般・共通設定 */
+body{
+     background: #fff;
+     font: 16px/20px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",'メイリオ',Meiryo,Helvetica,Arial,Sans-Serif;
+     color: #000;
+}
+
+
+#wrapper{
+	width:980px;
+	margin: 0 auto;
+}
+
+
+
+
+
+/* picutre */
+#facebook_button{
+position:relative;
+top:-150px;
+left:710px;
+}
+	
+
+
+
+
+/* footer */
+
+
+
+#footer{
+	color:#808080;
+}
+
+h1{
+	font-weight:bold;
+}
+
+#footer ul{
+list-style: none; 
+padding: 0;
+margin: 0;
+}
+
+#footer li{
+padding: 0; 
+margin: 0;
+}
+
+#footer a{
+text-decoration: none;
+color: #808080;
+font-size: 14px;
+}
+
+#footer a:hover{
+background: url(画像のアドレス) no-repeat left center;
+}
+
+
+#footer a:visited {
+	color: #000000 ; 
+} /* 訪問済 */
+
+#footer a:active {
+	color; #CCCCCC ;
+} /* クリック時 */
+
+#footer a:hover { color: #CCCCCC ; } /* オンマウス時 */
